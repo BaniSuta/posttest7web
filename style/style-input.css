@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Sans:opsz@9..40&family=Noto+Sans+JP&display=swap");
+
+html {
+  width: 100%;
+}
+
+:root {
+  --color-bg-main: #141e46;
+  --color-txt: #fff5e0;
+  --color-bg-head-foot: #c70039;
+  --color-bg-label: #213555;
+  --highlight-txt: #27005d;
+}
+
+.light-mode {
+  --color-bg-main: #7286d3;
+  --color-txt: #141e46;
+  --color-bg-head-foot: #e5e0ff;
+  --color-bg-label: #7286d3;
+  --highlight-txt: #ffdbaa;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border-radius: 30px;
+  margin: 66px;
+  padding: 40px;
+  background-color: #ff6969;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.ketik {
+  width: 250px;
+}
+
+select {
+  width: 250px;
+}
+
+td input[type="text"],
+td input[type="number"] {
+  font-family: "DM Sans";
+  border-radius: 8px;
+  height: 25px;
+}
+
+td input[type="file"] {
+  font-family: "DM Sans";
+  height: 25px;
+}
+
+td button {
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+td button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+td {
+  padding: 5px;
+}
+
+@media (max-width: 900px) {
+  table {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 70%;
+  }
+
+  tr {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  td.akhir {
+    display: flex;
+    justify-content: center;
+  }
+}

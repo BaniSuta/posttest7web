@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Sans:opsz@9..40&family=Noto+Sans+JP&display=swap");
+
+section {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff6969;
+}
+
+.head-sec {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Croissant One";
+}
+
+.cont-img-sec img {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.body-sec {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+li {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+@media (max-width: 900px) {
+  .cont-img-sec {
+    text-align: center;
+  }
+
+  .cont-img-sec img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .body-sec {
+    display: block;
+  }
+
+  .isi-cont {
+    margin-top: 50px;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    list-style-type: none;
+  }
+}
