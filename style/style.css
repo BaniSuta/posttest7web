@@ -84,6 +84,7 @@ label {
 @media (max-width: 900px) {
   body {
     font-size: 10px;
+    overflow-x: hidden;
   }
 
   .btn-aksi {

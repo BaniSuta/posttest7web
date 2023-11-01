@@ -140,6 +140,10 @@ footer p {
     margin-right: 0px;
   }
 
+  .header-img img {
+    max-width: 170px;
+  }
+
   .tanggal p:last-child {
     margin-top: -5px;
   }
